@@ -10,8 +10,8 @@ The Ti.Light project is a sample on how to create a flashlight module.  This pro
 
 Download the platform you wish to use:
 
-* [iOS Dist](https://github.com/benbahrenburg/Ti.Light/tree/master/iOS/dist)
-* [Android Dist] (https://github.com/benbahrenburg/Ti.Light/tree/master/Android/dist)
+* [iOS Dist](/tree/master/iOS/dist)
+* [Android Dist](/tree/master/Android/dist)
 
 <h2>Building from source?</h2>
 
