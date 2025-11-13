@@ -2,7 +2,7 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 1.0.0
+version: 1.0.1
 apiversion: 4
 architectures: arm64-v8a armeabi-v7a x86 x86_64
 description: Ti.Light is a sample project to create a flashlight
@@ -17,4 +17,4 @@ guid: 53cb7380-b3ba-4581-ad7d-4d2286d2b589
 platform: android
 classpaths:
 plugins:
-minsdk: 12.7.0
+minsdk: 13.0.0
