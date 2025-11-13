@@ -38,7 +38,11 @@ public class TilightModule extends KrollModule {
 
     @Kroll.onAppCreate
     public static void onAppCreate(TiApplication app) {
-        PackageManager pm = app.getApplicationContext().getPackageManager();
+    }
+
+    @Kroll.method
+    public void init() {
+        PackageManager pm = TiApplication.getAppRootOrCurrentActivity().getApplicationContext().getPackageManager();
         // if device support camera?
         isSupport = pm.hasSystemFeature(PackageManager.FEATURE_CAMERA);
 
